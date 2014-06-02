@@ -1,0 +1,52 @@
+#ticker-forex {
+	bottom: 0;
+	color: #666666;
+	font: 11px Arial,Helvetica,sans-serif;
+	position: absolute;
+	top: 0;
+}
+#ticker-forex table, #ticker-forex #ticker-system {
+	float: left;
+}
+#ticker-forex table {
+	line-height: 1;
+	margin: 0;
+	height: 46px;
+	float: left;
+	width: 300px;
+}
+#ticker-forex table td {
+	padding: 3px;
+}
+#ticker-forex table tr.content td {
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	border-bottom: 1px solid #EBEBEB;
+	border-right: 1px solid #EBEBEB;
+}
+#ticker-forex table tr.header {
+	background: none repeat scroll 0 0;
+}
+#ticker-forex table tr.header.even {
+	background: none repeat scroll 0 0;
+}
+#ticker-forex table tr.content td.icon {
+	border-right: medium none;
+}
+#ticker-forex table tr.content {
+	color: #333333;
+}
+.ticker-forex-wrap {
+	margin-bottom: 0;
+	overflow: hidden;
+	position: relative;
+	height: 46px;
+}
+
+#table-forex-wrap .table-forex-header {
+	color: #FFFFFF;
+}
+#table-forex-wrap .table-forex td {
+	border-top: 0px;
+	padding: 0;
+	text-align: center;
+}
